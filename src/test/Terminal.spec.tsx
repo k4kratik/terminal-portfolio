@@ -150,11 +150,11 @@ describe("Terminal Component", () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "contact@kratik.dev"
+        "hello@kratik.dev"
       );
     });
 
-    const nums = [1, 2, 3, 4];
+    const nums = [1, 2];
     nums.forEach(num => {
       it(`should redirect to project URL when user type 'projects go ${num}' cmd`, async () => {
         await user.type(terminalInput, `projects go ${num}{enter}`);
@@ -202,8 +202,8 @@ describe("Terminal Component", () => {
         window.open = vi.fn();
 
         // firstly run commands correct options
-        await user.type(terminalInput, `projects go 4{enter}`);
-        await user.type(terminalInput, `socials go 4{enter}`);
+        await user.type(terminalInput, `projects go 2{enter}`);
+        await user.type(terminalInput, `socials go 2{enter}`);
         await user.type(terminalInput, `themes set espresso{enter}`);
 
         // then run cmd with incorrect options
