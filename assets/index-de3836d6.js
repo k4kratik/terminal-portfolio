@@ -270,7 +270,7 @@ function print() { __p += __j.call(arguments, '') }
 ██║░╚██╗██║░░██║██║░░██║░░░██║░░░██║██║░╚██╗
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝
  
-          `})}),$.jsx("div",{children:"Welcome to my terminal portfolio. (Version 1.3.1)"}),$.jsx(om,{children:"----"}),$.jsxs("div",{children:["This project's source code can be found in this project's"," ",$.jsx(q1,{href:"https://github.com/k4kratik/terminal-portfolio",children:"GitHub repo"}),"."]}),$.jsx(om,{children:"----"}),$.jsxs("div",{children:["For a list of available commands, type `",$.jsx(jP,{children:"help"}),"`."]})]}),$.jsx("div",{className:"illu-section",children:$.jsx(UP,{children:`
+          `})}),$.jsx("div",{children:"Welcome to my terminal portfolio."}),$.jsx(om,{children:"----"}),$.jsxs("div",{children:["This project's source code can be found in this project's"," ",$.jsx(q1,{href:"https://github.com/k4kratik/terminal-portfolio",children:"GitHub repo"}),"."]}),$.jsx(om,{children:"----"}),$.jsxs("div",{children:["For a list of available commands, type `",$.jsx(jP,{children:"help"}),"`."]})]}),$.jsx("div",{className:"illu-section",children:$.jsx(UP,{children:`
                        ,##,,eew,
                      ,##############C
                   a###############@##
