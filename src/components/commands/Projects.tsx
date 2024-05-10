@@ -57,26 +57,14 @@ const projects = [
   {
     id: 1,
     title: "Kratik Jain's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    desc: "My personal blog where I write my thoughts and experiences around DevOps and Cloud Solutions.",
+    url: "https://blogs.kratik.dev",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
-  },
-  {
-    id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "Infra of Kutumb and Crafto App",
+    desc: "Popular Apps with around 3M+ DAU.",
+    url: "https://play.google.com/store/apps/developer?id=Kutumb+App",
   },
 ];
 

@@ -9,6 +9,7 @@ import {
 } from "../../utils/funcs";
 import { termContext } from "../Terminal";
 import Usage from "../Usage";
+import { Link } from "../styles/Welcome.styled";
 
 const Socials: React.FC = () => {
   const { arg, history, rerender } = useContext(termContext);
@@ -27,7 +28,7 @@ const Socials: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2", "3"]) ? (
       <Usage cmd="socials" />
     ) : null;
 
@@ -40,7 +41,7 @@ const Socials: React.FC = () => {
         <CmdList key={title}>
           <Cmd>{`${id}. ${title}`}</Cmd>
           {generateTabs(tab)}
-          <CmdDesc>- {url}</CmdDesc>
+          <CmdDesc>- <Link href={url} target="_blank"> {url}</Link></CmdDesc>
         </CmdList>
       ))}
       <Usage cmd="socials" marginY />
@@ -52,26 +53,20 @@ const socials = [
   {
     id: 1,
     title: "GitHub",
-    url: "https://github.com/satnaing",
+    url: "https://github.com/k4kratik",
     tab: 3,
   },
   {
     id: 2,
-    title: "Dev.to",
-    url: "https://dev.to/satnaing",
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/k4kratik/",
     tab: 3,
   },
   {
     id: 3,
-    title: "Facebook",
-    url: "https://www.facebook.com/satnaing.dev",
+    title: "Twitter",
+    url: "https://www.twitter.com/k4kratik",
     tab: 1,
-  },
-  {
-    id: 4,
-    title: "Instagram",
-    url: "https://instagram.com/satnaing.dev",
-    tab: 0,
   },
 ];
 

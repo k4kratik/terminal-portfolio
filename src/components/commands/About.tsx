@@ -14,8 +14,8 @@ const About: React.FC = () => {
         I'm <HighlightAlt>DevOps/Cloud Engineer</HighlightAlt> based in India.
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+        I love to design, create and manage infra of all scale and <br />
+        I enjoy solving challenges with creative solutions.
       </p>
     </AboutWrapper>
   );
