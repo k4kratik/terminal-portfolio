@@ -10,7 +10,7 @@ const Gui: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "gui") {
-    window.open("https://kratik.dev/", "_blank");
+    window.open("https://kratik.notion.site/kratik/Kratik-Jain-DevOps-Engineer-c50fb1badd6d47508124d737eab2079c", "_blank");
   }
 
   return <span></span>;
